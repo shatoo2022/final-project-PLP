@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+
+/* Floating Animation Keyframes */
+@keyframes floatUp {
+    0% {
+        transform: translateY(100vh) scale(0);
+        opacity: 0;
+    }
+    20% {
+        opacity: var(--target-opacity, 0.6); /* Fade in */
+    }
+    100% {
+        transform: translateY(-20vh) scale(1.5); /* Move way up */
+        opacity: 0; /* Fade out */
+    }
+}
+
+/* Utility class to apply the animation */
+.animate-float {
+    animation: floatUp linear infinite;
+}/* Floating Animation Keyframes */
+@keyframes floatUp {
+    0% {
+        transform: translateY(100vh) scale(0);
+        opacity: 0;
+    }
+    20% {
+        opacity: var(--target-opacity, 0.6); /* Fade in */
+    }
+    100% {
+        transform: translateY(-20vh) scale(1.5); /* Move way up */
+        opacity: 0; /* Fade out */
+    }
+}
+
+/* Utility class to apply the animation */
+.animate-float {
+    animation: floatUp linear infinite;
+}

@@ -1,0 +1,22 @@
+# --- Root Safety Net ---
+
+# Dependencies
+node_modules/
+
+# Environment Variables (CRITICAL SECURITY)
+.env
+.env.local
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor folders
+.vscode/
+.idea/
